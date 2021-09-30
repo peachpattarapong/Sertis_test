@@ -1,0 +1,19 @@
+
+
+User name = "root"
+Host name = "localhost"
+Password = ""
+
+
+
+CREATE TABLE cards(
+
+	id int(10) NOT NULL PRIMARY KEY  AUTO_INCREMENT,
+	name varchar(100) NOT NULL,
+	status varchar(100) NOT NULL,
+	content varchar(100) NOT NULL,
+	category varchar(100) NOT NULL,
+	author varchar(100) NOT NULL
+
+
+)ENGINE=InnoDB CHAREST=uft8;
